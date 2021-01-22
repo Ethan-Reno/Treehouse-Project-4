@@ -190,6 +190,15 @@ button {
 
 .win {
   background-color: var(--color-win);
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  justify-content: center;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  border-radius: 5px;
 }
 
 .win a {
@@ -198,6 +207,15 @@ button {
 
 .lose {
   background-color: #f5785f;
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  justify-content: center;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  border-radius: 5px;
 }
 
 .lose a {
